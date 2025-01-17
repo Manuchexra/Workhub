@@ -1,0 +1,582 @@
+/* General Styles */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0e0d0d;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #ff4400;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('img/hero.png'); /* Sizning rasmingizni joylang */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 10px;
+  font-size: 68px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e03d15;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #7e0303;
+}
+
+/* Who Are We Section Styles */
+.who-are-we {
+  padding: 40px 30px;
+  height: auto; 
+}
+
+.who-are-we h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 70px; /* O'ng tomonga siljitish */
+  border-bottom: 2px solid #e03d15;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.who-are-we p {
+  font-size: 28px;
+  line-height: 1.6;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* What We Offer Section Styles */
+.what-we-offer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px; 
+  font-size: x-large;
+}
+
+.what-we-offer h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-size: x-large;
+  color: #333;
+}
+
+.offer-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offer-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.offer-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0a0a0a;
+}
+
+.offer-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.offer-text {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.offer-text p {
+  width: 30%;
+  text-align: left;
+}
+
+/* Features Section Styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px; /* O'zgartirildi */
+}
+
+.features h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.features ul li {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.features button {
+  font-size: 16px;
+  padding: 0px 45px;
+  height: 45px;
+  color: #fff;
+  background-color: #ff2600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features button:hover {
+  background-color: #b31800;
+}
+
+/* Amenities Section Styles */
+
+.amenities {
+  padding: 40px 30px;
+  height: auto; /* O'zgartirildi */
+}
+
+.amenities h2 {
+  display: inline-block;
+  margin-left: 70px; /* O'ng tomonga siljitish */
+  font-size: 30px;
+  border-bottom: 2px solid #e03d15;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.amenities h1{
+  display: flex;
+  font-size: 38px;
+  justify-content: center;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.amenities .subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.amenities-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.amenity-item {
+  width: 250px;
+  height: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 7px rgb(124, 124, 124);
+  text-align: center;
+}
+
+.amenity-image {
+  width: 80px;
+  height: 80px; /* Rasm balandligi */
+  object-fit: cover; /* Rasmni to'g'ri kesish */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.amenity-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ff3c00;
+}
+
+.amenity-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* FAQ Section Styles */
+.faq {
+  padding: 50px 20px;
+  background-color: #fff;
+  /* text-align: center; */
+
+}
+
+.faq h2 {
+  font-size: 36px;
+  display: inline-block;
+  border-bottom: 2px solid #f03000;
+  margin-bottom: 30px;
+  color: #333;
+  margin-left: 70px; /* O'ng tomonga siljitish */
+}
+
+.faq-grid {
+  max-width: 1200px;
+  width: 2000px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.faq-question h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #000000;
+}
+
+.toggle-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff1e00;
+}
+
+.faq-answer {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  background-color: rgb(243, 101, 101);
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/* Active State */
+.faq-item.active .faq-answer {
+  max-height: 200px; /* Javobning maksimal balandligi */
+  padding-top: 10px;
+}
+
+.faq-item.active .toggle-icon {
+  transform: rotate(45deg); /* + dan - ga aylantirish */
+}
+
+/* Footer Section Styles */
+.footer {
+  background-image: url('img/footer-bg.jpg'); /* Orqa fon rasmi */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+/* Shaffof kulrang qatlam */
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(48, 48, 48, 0.818); /* Shaffof kulrang qatlam */
+  z-index: 1;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 2; /* Kontentni qatlam ustiga olib chiqish */
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Qolgan CSS kodlari o'zgarishsiz qoldi */
+.useful-links, .feedback, .contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.useful-links h3, .feedback h3, .contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e03d15; /* Jigarrang rang */
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.useful-links ul li {
+  margin-bottom: 10px;
+}
+
+.useful-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.useful-links ul li a:hover {
+  color: #e03d15; /* Jigarrang rang */
+}
+
+.feedback form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedback input, .feedback textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.feedback button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e03d15; /* Jigarrang rang */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback button:hover {
+  background-color: #b31800; /* To'q jigarrang rang */
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* Media Queries for Responsive Design */
+
+/* Planshetlar uchun (768px dan 1024px gacha) */
+@media (max-width: 1024px) {
+  .hero-content {
+    font-size: 48px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .offer-text {
+    gap: 100px;
+  }
+
+  .offer-text p {
+    width: 40%;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+  }
+}
+
+/* Telefonlar uchun (767px dan kichik) */
+@media (max-width: 767px) {
+  .hero-content {
+    font-size: 36px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .offer-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer-item {
+    width: 80%;
+  }
+
+  .offer-text {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+  }
+
+  .offer-text p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr; /* 1 ustun */
+  }
+
+  .amenities h2 {
+    font-size: 28px;
+  }
+
+  .amenities .subtitle {
+    font-size: 16px;
+  }
+
+  .amenity-item h3 {
+    font-size: 18px;
+  }
+
+  .amenity-item p {
+    font-size: 14px;
+  }
+
+  .amenity-image {
+    height: 120px; /* Telefonlar uchun rasm balandligi */
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .useful-links, .feedback, .contact-info {
+    width: 100%;
+    max-width: 400px;
+  }
+}

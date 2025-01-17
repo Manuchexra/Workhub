@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Seminars - WorkHub Central</title>
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">WorkHub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="spaces.html">Spaces</a></li>
+                <li><a href="events.html">Events & Seminars</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="hero-background">
+        <div class="shape-circle"></div>
+        <div class="shape-triangle"></div>
+        <div class="shape-square"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Events & Seminars</h1>
+            <p>Join our upcoming events and seminars to learn, network, and grow your business.</p>
+            <div class="hero-buttons">
+                <a href="#events" class="cta-button">Explore Events</a>
+                <a href="#registration-form" class="cta-button-outline">Register Now</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/events-hero.png" alt="Events Image">
+        </div>
+    </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <!-- Event Cards -->
+        <div class="event-cards">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="img/events.jpg" alt="Seminar 1">
+                    <div class="event-date">
+                        <span class="day">20</span>
+                        <span class="month">Oct</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h2>Digital Marketing Seminar</h2>
+                    <p>Learn the latest trends in digital marketing from industry experts.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> 10:00 AM - 12:00 PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> WorkHub Central, Conference Hall</li>
+                    </ul>
+                    <a href="#registration-form" class="cta-button">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="img/events2.png" alt="Workshop 1">
+                    <div class="event-date">
+                        <span class="day">05</span>
+                        <span class="month">Nov</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h2>Startup Funding Workshop</h2>
+                    <p>Discover how to secure funding for your startup.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> 2:00 PM - 4:00 PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> WorkHub Central, Room 101</li>
+                    </ul>
+                    <a href="#registration-form" class="cta-button">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="img/events3.png" alt="Networking Event 1">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">Nov</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h2>Networking Night</h2>
+                    <p>Connect with like-minded professionals and expand your network.</p>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> 6:00 PM - 8:00 PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> WorkHub Central, Lounge Area</li>
+                    </ul>
+                    <a href="#registration-form" class="cta-button">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Registration Form Section -->
+    <section id="registration-form" class="registration-form">
+    <div class="form-container">
+        <h2>Event Registration Form</h2>
+        <p>Event registration must be completed at least 6 days prior to the event.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">NAME</label>
+                <div class="name-fields">
+                    <input type="text" id="first-name" name="first-name" placeholder="First" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">PHONE</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="arrival-time">WHEN WILL YOU ARRIVE?</label>
+                <div class="time-fields">
+                    <input type="text" id="hour" name="hour" placeholder="HH" required>
+                    <input type="text" id="minute" name="minute" placeholder="MM" required>
+                    <select id="ampm" name="ampm" required>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="cta-button">REGISTER</button>
+        </form>
+        <p class="note">Above you can find a map of the event venue. Please contact us for any further details.</p>
+    </div>
+    </section>
+    <!-- Interactive Shapes Section -->
+    <section id="interactive-shapes" class="interactive-shapes">
+    <div class="shape-circle"></div>
+    <div class="shape-triangle"></div>
+    <div class="shape-square"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Useful Links -->
+            <div class="useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right fa-icon"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right fa-icon"></i>About Us</a></li>
+                    <li><a href="spaces.html"><i class="fas fa-chevron-right fa-icon"></i>Spaces</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right fa-icon"></i>Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt fa-icon"></i>City Center, Tashkent, Uzbekistan</p>
+                <p><i class="fas fa-phone-alt fa-icon"></i>+998 99 999 99 99</p>
+                <p><i class="fas fa-envelope fa-icon"></i>info@workhubcentral.uz</p>
+            </div>
+
+            <!-- Feedback Form -->
+            <div class="feedback">
+                <h3>Feedback</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

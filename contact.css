@@ -1,0 +1,399 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e0d0d;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff4400;
+}
+
+/* contact.css */
+
+/* Contact Hero Section */
+.contact-hero {
+    background-color: #f9f9f9; /* Orqa fon rangi */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-hero-content {
+    margin-bottom: 40px;
+}
+
+.contact-hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Sarlavha rangi */
+}
+
+.contact-hero p {
+    font-size: 18px;
+    color: #555; /* Matn rangi */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 5 ta rasmni moslashuvchan tarzda joylashtirish */
+    gap: 15px; /* Rasmlar orasidagi masofa */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rasmlarga yumaloq burchaklar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Rasmlarga soyali effekt */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animatsiya */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); /* Rasmni kattalashtirish */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Hover paytida soyani kuchaytirish */
+}
+
+/* Contact Information Section */
+.contact-info {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact-card i {
+    font-size: 2rem;
+    color: #e03d15;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Form Section */
+.contact-form {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #e03d15;
+    outline: none;
+}
+
+.cta-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e03d15;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.cta-button:hover {
+    background-color: #b31800;
+}
+
+/* Map Section */
+.map-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.map-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.map-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-image: url('img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffffff;
+    padding: 60px 20px;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(48, 48, 48, 0.818);
+    z-index: 1;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.useful-links, .feedback, .contact-info {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.useful-links:hover, .feedback:hover, .contact-info:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.useful-links h3, .feedback h3, .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e03d15;
+    position: relative;
+    display: inline-block;
+}
+
+.useful-links h3::after, .feedback h3::after, .contact-info h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 2px;
+    background-color: #e03d15;
+}
+
+.useful-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.useful-links ul li {
+    margin-bottom: 10px;
+}
+
+.useful-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+}
+
+.useful-links ul li a:hover {
+    color: #e03d15;
+}
+
+.useful-links ul li a i {
+    font-size: 18px;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feedback input, .feedback textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.feedback input:focus, .feedback textarea:focus {
+    border-color: #e03d15;
+    outline: none;
+}
+
+.feedback button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e03d15;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback button:hover {
+    background-color: #b31800;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info p i {
+    font-size: 18px;
+    color: #e03d15;
+}
+
+.fa-icon {
+    font-size: 18px;
+    color: #e03d15;
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .useful-links, .feedback, .contact-info {
+        width: 100%;
+        max-width: 400px;
+    }
+}
