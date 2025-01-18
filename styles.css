@@ -461,6 +461,47 @@ nav {
 
 
 /* Media  */
+/* Media Queries */
+
+/* Planshet */
+@media (max-width: 1024px) {
+  .faq-grid {
+    width: 100%; /* Yaxshiroq joylashuvi uchun kenglikni sozlash */
+  }
+
+  .faq-item {
+    padding: 10px;
+  }
+
+  .faq-question h3 {
+    font-size: 18px;
+  }
+
+  .faq-answer p {
+    font-size: 14px;
+  }
+}
+
+/* Telefonlar */
+@media (max-width: 767px) {
+  .faq-grid {
+    width: 100%; /* Kenglikni to'liq egallash */
+    padding: 0 10px;
+  }
+
+  .faq-item {
+    padding: 8px;
+  }
+
+  .faq-question h3 {
+    font-size: 16px;
+  }
+
+  .faq-answer p {
+    font-size: 12px;
+  }
+}
+
 
 /* Planshet*/
 @media (max-width: 1024px) {
