@@ -199,3 +199,87 @@ nav {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .useful-links, .contact-info {
+        min-width: 100%;
+    }
+
+    .modal-content {
+        margin: 20% auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-container {
+        gap: 10px;
+    }
+
+    .useful-links h3, .contact-info h3 {
+        font-size: 20px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #booking-form input, #booking-form select, #booking-form textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #booking-form button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}

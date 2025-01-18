@@ -45,7 +45,7 @@ nav {
 
 /* Hero Section Styles */
 .hero {
-  background-image: url('img/hero.png'); /* Sizning rasmingizni joylang */
+  background-image: url('img/hero.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -97,7 +97,7 @@ nav {
 .who-are-we h2 {
   display: inline-block;
   font-size: 30px;
-  margin-left: 70px; /* O'ng tomonga siljitish */
+  margin-left: 70px; 
   border-bottom: 2px solid #e03d15;
   margin-bottom: 20px;
   color: #333;
@@ -183,7 +183,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px; /* O'zgartirildi */
+  padding: 20px; 
 }
 
 .features h2 {
@@ -223,12 +223,12 @@ nav {
 
 .amenities {
   padding: 40px 30px;
-  height: auto; /* O'zgartirildi */
+  height: auto;
 }
 
 .amenities h2 {
   display: inline-block;
-  margin-left: 70px; /* O'ng tomonga siljitish */
+  margin-left: 70px; 
   font-size: 30px;
   border-bottom: 2px solid #e03d15;
   margin-bottom: 20px;
@@ -271,8 +271,8 @@ nav {
 
 .amenity-image {
   width: 80px;
-  height: 80px; /* Rasm balandligi */
-  object-fit: cover; /* Rasmni to'g'ri kesish */
+  height: 80px;
+  object-fit: cover; 
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -292,7 +292,6 @@ nav {
 .faq {
   padding: 50px 20px;
   background-color: #fff;
-  /* text-align: center; */
 
 }
 
@@ -302,7 +301,7 @@ nav {
   border-bottom: 2px solid #f03000;
   margin-bottom: 30px;
   color: #333;
-  margin-left: 70px; /* O'ng tomonga siljitish */
+  margin-left: 70px; 
 }
 
 .faq-grid {
@@ -357,17 +356,17 @@ nav {
 
 /* Active State */
 .faq-item.active .faq-answer {
-  max-height: 200px; /* Javobning maksimal balandligi */
+  max-height: 200px; 
   padding-top: 10px;
 }
 
 .faq-item.active .toggle-icon {
-  transform: rotate(45deg); /* + dan - ga aylantirish */
+  transform: rotate(45deg); 
 }
 
 /* Footer Section Styles */
 .footer {
-  background-image: url('img/footer-bg.jpg'); /* Orqa fon rasmi */
+  background-image: url('img/footer-bg.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -383,13 +382,13 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(48, 48, 48, 0.818); /* Shaffof kulrang qatlam */
+  background-color: rgba(48, 48, 48, 0.818); 
   z-index: 1;
 }
 
 .footer-container {
   position: relative;
-  z-index: 2; /* Kontentni qatlam ustiga olib chiqish */
+  z-index: 2; 
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
@@ -398,7 +397,6 @@ nav {
   gap: 20px;
 }
 
-/* Qolgan CSS kodlari o'zgarishsiz qoldi */
 .useful-links, .feedback, .contact-info {
   flex: 1;
   min-width: 250px;
@@ -407,7 +405,7 @@ nav {
 .useful-links h3, .feedback h3, .contact-info h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #e03d15; /* Jigarrang rang */
+  color: #e03d15;
 }
 
 .useful-links ul {
@@ -426,7 +424,7 @@ nav {
 }
 
 .useful-links ul li a:hover {
-  color: #e03d15; /* Jigarrang rang */
+  color: #e03d15; 
 }
 
 .feedback form {
@@ -446,14 +444,14 @@ nav {
   padding: 10px 20px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #e03d15; /* Jigarrang rang */
+  background-color: #e03d15; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .feedback button:hover {
-  background-color: #b31800; /* To'q jigarrang rang */
+  background-color: #b31800; 
 }
 
 .contact-info p {
@@ -462,9 +460,9 @@ nav {
 }
 
 
-/* Media Queries for Responsive Design */
+/* Media  */
 
-/* Planshetlar uchun (768px dan 1024px gacha) */
+/* Planshet*/
 @media (max-width: 1024px) {
   .hero-content {
     font-size: 48px;
@@ -492,11 +490,11 @@ nav {
   }
 
   .amenities-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Telefonlar uchun (767px dan kichik) */
+/* Telefonlar  */
 @media (max-width: 767px) {
   .hero-content {
     font-size: 36px;
@@ -546,7 +544,7 @@ nav {
   }
 
   .amenities-grid {
-    grid-template-columns: 1fr; /* 1 ustun */
+    grid-template-columns: 1fr; 
   }
 
   .amenities h2 {
@@ -566,7 +564,7 @@ nav {
   }
 
   .amenity-image {
-    height: 120px; /* Telefonlar uchun rasm balandligi */
+    height: 120px; 
   }
 
   .footer-container {
