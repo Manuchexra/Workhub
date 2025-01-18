@@ -375,9 +375,9 @@ nav {
 }
 
 
-/* Responsive Design */
 
-/* Ekran o'lchami 1200px yoki undan kichik bo'lganda */
+
+/* Responsive Design */
 @media (max-width: 1200px) {
     .space-card {
         width: calc(50% - 40px);
@@ -411,8 +411,12 @@ nav {
     }
 }
 
-/* Ekran o'lchami 768px yoki undan kichik bo'lganda */
 @media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
     .space-card {
         width: calc(50% - 40px);
     }
@@ -456,7 +460,6 @@ nav {
     }
 }
 
-/* Ekran o'lchami 480px yoki undan kichik bo'lganda */
 @media (max-width: 480px) {
     .space-card {
         width: 100%;
