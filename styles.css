@@ -219,7 +219,7 @@ nav {
   background-color: #b31800;
 }
 
-/* Amenities Section Styles */
+/* Amenities */
 
 .amenities {
   padding: 40px 30px;
@@ -288,7 +288,7 @@ nav {
   color: #666;
 }
 
-/* FAQ Section Styles */
+/* FAQ */
 .faq {
   padding: 50px 20px;
   background-color: #fff;
@@ -354,7 +354,6 @@ nav {
   padding-bottom: 20px;
 }
 
-/* Active State */
 .faq-item.active .faq-answer {
   max-height: 200px; 
   padding-top: 10px;
@@ -364,7 +363,7 @@ nav {
   transform: rotate(45deg); 
 }
 
-/* Footer Section Styles */
+/* Footer*/
 .footer {
   background-image: url('img/footer-bg.jpg');
   background-size: cover;
@@ -374,7 +373,6 @@ nav {
   padding: 40px 20px;
 }
 
-/* Shaffof kulrang qatlam */
 .footer::before {
   content: '';
   position: absolute;
@@ -465,7 +463,7 @@ nav {
 /* Planshet */
 @media (max-width: 1024px) {
   .faq-grid {
-    width: 100%; /* Yaxshiroq joylashuvi uchun kenglikni sozlash */
+    width: 100%; 
   }
 
   .faq-item {
@@ -484,7 +482,7 @@ nav {
 /* Telefonlar */
 @media (max-width: 767px) {
   .faq-grid {
-    width: 100%; /* Kenglikni to'liq egallash */
+    width: 100%; 
     padding: 0 10px;
   }
 
