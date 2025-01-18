@@ -1,4 +1,4 @@
-/* Header Section Styles */
+/* Umumiy Header uslublari */
 header {
   background-color: #ffffff;
   padding: 10px 20px;
@@ -31,13 +31,46 @@ nav {
   font-weight: 500;
 }
 
-.nav-links li a.active {
-  color: #e03d15; /* Qizil rang */
-}
-
+.nav-links li a.active,
 .nav-links li a:hover {
   color: #e03d15; /* Qizil rang */
 }
+
+/* Media Queries uchun Header uslublari */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Nav elementlarni ustma-ust qilish */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Havolalarni ustma-ust qilish */
+    gap: 10px; /* Bo'shliqni kamaytirish */
+  }
+
+  .logo {
+    font-size: 20px; /* Logotipni kichikroq qilish */
+  }
+
+  header {
+    padding: 10px 15px; /* Kichik ekranda paddingni kamaytirish */
+  }
+}
+
+/* Media Queries uchun juda kichik ekranlar */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px; /* Logotipni yanada kichikroq qilish */
+  }
+
+  .nav-links {
+    gap: 5px; /* Havolalar orasidagi bo'shliqni yanada kamaytirish */
+  }
+
+  header {
+    padding: 8px 10px; /* Kichik ekranlar uchun paddingni kamaytirish */
+  }
+}
+
 
 /* Breadcrumb Navigation Styles */
 .breadcrumb {
