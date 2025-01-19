@@ -291,17 +291,19 @@ nav {
     color: #e03d15;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
+.cta-button1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    align-items: center;
     font-size: 16px;
     color: #fff;
-    background-color: #e03d15;
+    background-color: #ef1b08;
     border: none;
-    border-radius: 5px;
+    border-radius: 32px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: center;
+    width: 51%;
 }
 
 .cta-button:hover {
@@ -378,19 +380,15 @@ nav {
 }
 
 .cta-button {
-    display: flex
-    ;
-        justify-content: center;
-        padding: 10px 0px;
-        align-items: center;
-        font-size: 16px;
-        color: #fff;
-        background-color: #e03d15;
-        border: none;
-        border-radius: 32px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        width: 51%;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e03d15;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 88%;
 }
 
 .cta-button:hover {
