@@ -378,15 +378,19 @@ nav {
 }
 
 .cta-button {
-    padding: 12px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #e03d15;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 88%;
+    display: flex
+    ;
+        justify-content: center;
+        padding: 10px 0px;
+        align-items: center;
+        font-size: 16px;
+        color: #fff;
+        background-color: #e03d15;
+        border: none;
+        border-radius: 32px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 51%;
 }
 
 .cta-button:hover {
