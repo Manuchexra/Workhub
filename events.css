@@ -292,18 +292,16 @@ nav {
 }
 
 .cta-button1 {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-    align-items: center;
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #ef1b08;
+    background-color: #e03d15;
     border: none;
-    border-radius: 32px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 51%;
+    text-align: center;
 }
 
 .cta-button:hover {
@@ -329,12 +327,12 @@ nav {
 .registration-form h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #fcfeff;
 }
 
 .registration-form p {
     font-size: 1rem;
-    color: #666;
+    color: #fcfafa;
     margin-bottom: 20px;
 }
 
@@ -345,7 +343,7 @@ nav {
 
 .form-group label {
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
     display: block;
     margin-bottom: 5px;
 }
@@ -397,7 +395,7 @@ nav {
 
 .note {
     font-size: 0.9rem;
-    color: #666;
+    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -505,8 +503,15 @@ nav {
     border-radius: 5px;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    color: white !important; 
+    background-color: transparent; 
+    border: 1px solid white; 
     transition: border-color 0.3s ease;
+}
+.feedback form input {
+    color: white !important; 
+    background-color: transparent; 
+    border: 1px solid white; 
 }
 
 .feedback input:focus, .feedback textarea:focus {
@@ -535,10 +540,12 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
 }
 
 .contact-info p i {
     font-size: 18px;
+    color: white;
     color: #e03d15;
 }
 
