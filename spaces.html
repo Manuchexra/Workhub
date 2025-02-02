@@ -243,6 +243,24 @@
         </div>
     </footer>
     <!-- JavaScript faylini ulash -->
+     <script>
+                            document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+                        event.preventDefault();
+                        const formData = new FormData(this);
+                
+                        fetch('http://127.0.0.1:8000/api/feedback/', {
+                            method: 'POST',
+                            body: formData
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            alert('Thank you for your feedback!');
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+                    });
+     </script>
     <script src="https://js.stripe.com/v3/"></script>
     <script src="spaces.js"></script>
 </body>
